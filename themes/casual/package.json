@@ -1,0 +1,21 @@
+{
+  "name": "hexo-theme-casual",
+  "version": "2.0.0",
+  "description": "A hexo theme inspired by wordpress theme basata",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/littlewin-wang/hexo-theme-casual"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "casual"
+  ],
+  "author": "Littlewin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/littlewin-wang/hexo-theme-casual/issues"
+  },
+  "homepage": "https://github.com/littlewin-wang/hexo-theme-casual#readme",
+}

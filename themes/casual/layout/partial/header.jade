@@ -1,0 +1,14 @@
+header.site-header
+  figure.site-banner
+    img(src=theme.banner)
+    h3.site-title
+      a(href=url_for() data-text=config.title) 
+        != config.title
+  .site-nav
+    span.button-toggle
+    include nav
+    form#search-form.nav-item
+      input(type="text" id="local-search-input" name="q" results="0" placeholder=__('search') class="search form-control" autocomplete="off" autocorrect="off")
+      span.fa.fa-times(onclick="resetSearch()") 
+    div#local-search-result
+    p.no-result No results found

@@ -1,0 +1,220 @@
+.site-header {
+  .site-banner {
+    position: relative;
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+    .site-title {
+      display: block;
+      position: absolute;
+      top: 50%;
+      margin: 0;
+      width: 100%;
+      text-align: center;
+      a {
+        position: relative;
+        color: white;
+        font-size: 1.3em;
+        &:before {
+          content: attr(data-text);
+          position: absolute;
+          left: -2px;
+          text-shadow: 1px 0 inherit;
+          top: 0;
+          color: inherit;
+          background: inherit;
+          overflow: hidden;
+          clip: rect(0, 900px, 0, 0);
+          height: 100%;
+          animation: noise-anim-2 3s infinite linear alternate-reverse;
+        }
+        &:after {
+          content: attr(data-text);
+          position: absolute;
+          height: 100%;
+          left: 2px;
+          text-shadow: -1px 0 inherit;
+          top: 0;
+          color: inherit;
+          background: inherit;
+          overflow: hidden;
+          clip: rect(0, 900px, 0, 0);
+          animation: noise-anim 2s infinite linear alternate-reverse;
+        }
+      }
+    }
+  }
+  .site-nav {
+    position: relative;
+    height: 46px;
+    background-color: #252626;
+    z-index: 999;
+    .button-toggle {
+      position: absolute;
+      left: 20px;
+      top: 22px;
+      width: 20px;
+      height: 2px;
+      background-color: #fff;
+      content: "";
+      opacity: 1;
+      transition: opacity 0.3s ease 0s, background 0.3s ease 0s;
+      z-index: 20;
+      &:before {
+        position: absolute;
+        top: -6px;
+        left: 0;
+        width: 20px;
+        height: 2px;
+        background-color: #fff;
+        content: "";
+        transform-origin: center center 0;
+        transition: transform 0.3s ease 0s, background 0.3s ease 0s;
+      }
+      &:after {
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 20px;
+        height: 2px;
+        content: "";
+        background-color: #fff;
+        transform-origin: center center 0;
+        transition: transform 0.3s ease 0s, background 0.3s ease 0s;
+      }
+    }
+    .container {
+      height: 100%;
+    }
+  }
+  .nav-item {
+    display: inline-block;
+    color: white;
+    line-height: 46px;
+    a {
+      display: block;
+      padding: 0 20px;
+      color: #fff;
+      letter-spacing: 1.5px;
+      &:hover {
+        background-color: #444;
+      }
+    }
+    a[data-text="resume"] {
+      color: #fee;
+      text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+      animation: blink linear infinite 2s;
+    }
+  }
+
+  &:before {
+    position: fixed;
+    top: 46px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s;
+    content: none;
+    z-index: 9;
+  }
+
+  form#search-form {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 10%;
+    input {
+      width: 150px;
+      border-color: transparent!important;
+      background-color: transparent!important;
+      padding: 0!important;
+      box-shadow: none!important;
+    }
+    span.fa-times {
+      display: none;
+      padding: 8px;
+      position: relative;
+      &:before {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 20px;
+        height: 1px;
+        background-color: #fff;
+        content: "";
+        transform-origin: center center 0;
+        transform: translate(0px, 6px) rotate(45deg);
+      }
+      &:after {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 20px;
+        height: 1px;
+        background-color: #fff;
+        content: "";
+        transform-origin: center center 0;
+        transform: translate(0px, 6px) rotate(-45deg);
+      }
+    }
+  }
+
+  div#local-search-result {
+    position: absolute;
+    width: calc(170px + 10%);
+    max-height: 600px;
+    overflow-y: scroll;
+    top: 46px;
+    right: 0;
+    background-color: #252626;
+    opacity: 0.75;
+    color: #ccc;
+    z-index: 999;
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      list-style: none;
+      a.search-result-title {
+        display: inline;
+        color: #ccc;
+        border-bottom: 1px solid #bbb;
+      }
+      p.search-result {
+        line-height: 1.2rem;
+        max-height: 3.6rem;
+        font-size: 0.85rem;
+        color: #999;
+        padding-left: 1rem;
+        overflow: hidden;
+        em.search-keyword {
+          color: #e54e53;
+          text-decoration: underline;
+        }
+      }
+      &:hover {
+        background-color: #444
+      }
+    }
+  }
+  p.no-result {
+    position: absolute;
+    top: 46px;
+    right: 0;
+    display: none;
+    width: calc(170px + 10%);
+    background-color: #252626;
+    opacity: 0.75;
+    color: #ccc;
+    z-index: 999;
+    font-size: 0.85rem;
+    margin: 0;
+    padding: 0;
+  }
+}
