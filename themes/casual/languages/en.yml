@@ -1,17 +1,17 @@
-home: Home
-archive: Archive
-tags: Tags
-about: About
+home: みけブログTOP
+archive: 記事一覧
+tags: タグ
+about: ブログの説明
 rss: Rss
 resume: Resume
 
-search: search
+search: 検索
 
 recent:
-  posts: Recent Posts
-  comments: Recent Comments
+  posts: 新着投稿
+  comments: 新着コメント
 
-prev_text: Prev
-next_text: Next
-prev_post: Previous Post
-next_post: Next Post
+prev_text: 前へ
+next_text: 次へ
+prev_post: 前の記事
+next_post: 次の記事

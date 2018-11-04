@@ -58,7 +58,7 @@ mixin post(item)
             a(href= url_for(tag.path))
               != tag.name
       span.post-review
-        != "阅读次数 : "
+        != "この記事の閲覧数: "
         span(data-hk-page="current") -
       - if (item.bgimage)
         img.bgimage(src=item.bgimage)

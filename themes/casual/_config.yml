@@ -2,7 +2,7 @@ menu:
   home: /
   archive: /archives
   about: /about
-  rss: /atom.xml
+#  rss: /atom.xml
 
 banner: http://7xpot0.com1.z0.glb.clouddn.com/17-2-15/6582823-file_1487154778995_647d.jpg
 avatar: /avatar.png
@@ -24,7 +24,7 @@ uyan: 2128137
 # ga: UA-92791318-1
 
 # Copyright Infomation
-startyear: 2016
+startyear: 2018
 
 # Support hexo-renderer-scss
 node_sass:
