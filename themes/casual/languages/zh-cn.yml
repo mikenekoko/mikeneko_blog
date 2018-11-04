@@ -1,17 +1,17 @@
-home: 主页
-archive: 归档
-tags: 标签
-about: 关于
-rss: 订阅
-resume: 求职
+home: みけブログTOP
+archive: 記事一覧
+tags: タグ
+about: ブログの説明
+rss: Rss
+resume: Resume
 
-search: 搜索
+search: 検索
 
 recent:
-  posts: 近期文章
-  comments: 近期评论
+  posts: 新着投稿
+  comments: 新着コメント
 
-prev_text: 前一页
-next_text: 后一页
-prev_post: 上一篇
-next_post: 下一篇
+prev_text: 前へ
+next_text: 次へ
+prev_post: 前の記事
+next_post: 次の記事
