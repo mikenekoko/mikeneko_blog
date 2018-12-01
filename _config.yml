@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: みけのゆるいエンジニアブログ
+title: みけのエンジニアブログ
 subtitle:
 description:
 keywords:
-author: みけのゆるいエンジニアブログ
+author: みけのエンジニアブログ
 language:
 timezone:
 
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-gstyle
+theme: hexo-theme-gstyle-master
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

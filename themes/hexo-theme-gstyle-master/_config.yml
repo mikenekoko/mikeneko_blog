@@ -1,0 +1,39 @@
+# main menu navigation
+menu:
+  home: /
+  archives: /archives
+  about: /about
+  rss: /atom.xml
+
+# Miscelaneous
+favicon: https://pbs.twimg.com/media/DtWc0NgVAAMP3Cf.jpg
+
+show_post_category: true
+show_post_tags: true
+
+active_nav: false # show active status on nav menu
+
+sidebar: true # whether to show the sidebar
+widgets:
+  # - category
+  # - tag
+  # - archive
+  - links
+  - tagcloud
+  - recent_posts
+links:
+  - title: "GitHub"
+    url: http://www.github.com/mikenekoko
+    intro: "GitHub"
+  - title: "Twitter"
+    url: https://twitter.com/mikene_koko
+    intro: "twitter"
+
+# disqus_shortname: wayou
+duoshuo_shortname: みけ
+#site statistic
+google_analytics:  
+# baidu_analytics: 392796d51567e848aebf813b65cb8656
+# baidu_analytics: 
+
+
