@@ -36,19 +36,19 @@ h1,h2,h3,h4,h5,h6{
 
 h1 {
     padding-bottom: .3em;
-    font-size: 2.00em;
+    font-size: 1.50em;
     line-height: 1.2;
 }
 
 h2 {
     padding-bottom: .3em;
-    font-size: 1.75em;
+    font-size: 1.25em;
     line-height: 1.225;
     border-bottom: 1px solid #eee
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.10em;
     line-height: 1.43
 }
 
