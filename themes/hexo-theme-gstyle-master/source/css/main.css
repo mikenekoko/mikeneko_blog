@@ -293,8 +293,8 @@ article code,article tt{
 }
 article blockquote{
     padding: 0 15px;
-    color: #777;
-    border-left: 4px solid #CBC8C8;
+    color: #444;
+    border-left: 4px solid #4184f3;
     margin: 0 -15px;
 }
 article hr{
