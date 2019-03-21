@@ -11,7 +11,7 @@ tags: Scala
 ## 経緯
 公開されているいろんなサンプルプログラムを動かして遊んでいたら、こんな記述がありました。
 
-```
+```scala
 else ???
 ```
 
@@ -22,7 +22,7 @@ else ???
 とりあえず参考にしたコードと同じようなものを作成してみました。
 渡された数字が偶数だった場合、2乗にして返す関数です。
 
-```
+```scala
 def SquareEvenNumber(x: Int): Int = {
   if (x % 2 == 0) x * 2
 }
@@ -30,7 +30,7 @@ def SquareEvenNumber(x: Int): Int = {
 
 これをコンパイルしてみると。。
 
-```
+```scala
 Error:(2, 9) type mismatch;
 found   : Unit
 required: Int
@@ -40,7 +40,7 @@ if (x % 2 == 0) x * 2
 型が一致してないのでエラーになりますね。Intで返ってくるのを想定しているのに、elseだった場合に何が返ってくるかわからない = Unit型になっています。
 とりあえずtrueの処理の確認がしたいのにelseの処理を書かなきゃダメです。じゃあとりあえず5を返すようにしちゃいましょうか。
 
-```
+```scala
 def SquareEvenNumber(x: Int): Int = {
   if (x % 2 == 0) x * 2
   else 5
@@ -55,7 +55,7 @@ def SquareEvenNumber(x: Int): Int = {
 Scalaはコンパイラ言語なので綺麗なコードをかかないとエラーだらけで動きません。ちょっと動かしたいな～という時に役立ちます。
 先ほどのコードを ??? に書き換えてみます。
 
-```
+```java
 def SquareEvenNumber(x: Int): Int = {
   if (x % 2 == 0) x * 2
   else ???

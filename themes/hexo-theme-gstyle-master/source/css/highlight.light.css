@@ -36,7 +36,7 @@
   color: color-link;
 }
 figure.highlight {
-  background: #111;
+  background: #333;
   /*border: 1px solid color-border;*/
   /*padding: 7px 15px;*/
   /*border-radius: 2px;*/
@@ -46,7 +46,10 @@ figure.highlight {
   font-size: 0.9em;
   margin: 15px -15px;
   padding: 5px 0;
-  border-left: 4px solid #CBC8C8;
+  border-left: 4px solid #4184f3;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 10px;
 }
 figure.highlight figcaption {
   color: color-meta;
@@ -66,7 +69,7 @@ figure.highlight table {
   border-spacing: 0;
 }
 figure.highlight .gutter {
-  color: #ffff96;
+  color: #ffffff;
   padding-right: 15px;
   border-right: 1px solid color-border;
   text-align: right;
@@ -97,7 +100,7 @@ pre .css .tag,
 pre .request,
 pre .status,
 pre .nginx .title {
-  color: #859900;
+  color: #ffbb55;
 }
 pre .number,
 pre .command,
@@ -107,7 +110,7 @@ pre .phpdoc,
 pre .tex .formula,
 pre .regexp,
 pre .hexcolor {
-  color: #2aa198;
+  color: #57ff57;
 }
 pre .title,
 pre .localvars,
@@ -118,7 +121,7 @@ pre .identifier,
 pre .vhdl,
 pre .literal,
 pre .id {
-  color: #268bd2;
+  color: #00ffff;
 }
 pre .attribute,
 pre .variable,
@@ -128,7 +131,7 @@ pre .constant,
 pre .class .title,
 pre .parent,
 pre .haskell .type {
-  color: #b58900;
+  color: #ff3a2c;
 }
 pre .preprocessor,
 pre .preprocessor .keyword,
