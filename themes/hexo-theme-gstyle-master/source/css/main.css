@@ -98,7 +98,7 @@ a {
     font-weight: 400;
     font-size: 20px;
     line-height: 56px;
-    padding: 0;
+    padding: 0 0 0 10px;
 }
 .logo a::before {
   content: '';/*何も入れない*/
@@ -456,6 +456,24 @@ article blockquote ol,article blockquote ul{
     display: flex;
     justify-content: center;
     height: 46px;
+    margin: 0 10px 20px 0;
+    border-radius: 50px;
+}
+.pagination a {
+    background-color: #4184f3;
+    color: #FFF;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+.pagination span {
+    background-color: rgb(190, 214, 255);
+    color: #0063FF;
+    border-radius: 50px;
+}
+
+.pagination :hover {
+    background-color: rgb(190, 214, 255);
+    color: #0063FF;
 }
 .pagination .page-number{
     flex: 1 1 auto;

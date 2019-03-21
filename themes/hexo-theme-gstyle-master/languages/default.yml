@@ -1,14 +1,14 @@
 home: トップ
 archives: 記事一覧
-about: みけプロフィール
+about: プロフィール
 rss: RSS
 categories: Categories
 search: Search
 tags: Tags
 tagcloud: Tag Cloud
 tweets: Tweets
-prev: Prev
-next: Next
+prev: 前へ
+next: 次へ
 comment: Comments
 archive_a: Archives
 archive_b: "Archives: %s"
@@ -21,6 +21,6 @@ powered_by: Powered by
 rss_feed: RSS Feed
 category: Category
 tag: Tag
-links: links
+links: 筆者リンク
 more: More...
 no-title: no title
