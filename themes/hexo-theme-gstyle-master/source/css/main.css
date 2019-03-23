@@ -602,3 +602,35 @@ kbd {
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 #bbb;
 }
+
+/* シェアボタン */
+.share_link {
+    display: flex;
+    margin-bottom: 30px;
+}
+.share_link a {
+    transition: ease-in-out .2s;
+    padding: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+.share_link a:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.15);
+    transition: ease-in-out .2s;
+    background-color: #fff;
+}
+.twitter_share_link {
+    background-color: #00B0ED;
+    color: #fff;
+}
+.twitter_share_link:hover {
+    color: #00B0ED;
+}
+.facebook_share_link {
+    background-color: #3B5998;
+    color: #fff;
+}
+.facebook_share_link:hover {
+    color: #3B5998;
+}

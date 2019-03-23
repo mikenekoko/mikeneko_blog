@@ -44,6 +44,12 @@
         </div>
         <% } %>
 
+        <div class="share_link">
+          <a class="twitter_share_link" href="https://twitter.com/intent/tweet?text=<%= page.title%>%20-%20<%= config.author%>%0A<%= page.permalink %>" target="_blank">
+            <i class="fab fa-twitter fa-3x"></i></a>
+          <a class="facebook_share_link" href="http://www.facebook.com/sharer.php?u=<%= page.permalink %>&t=<%= page.title%>" target="_blank">
+            <i class="fab fa-facebook-f fa-3x"></i></a>
+        </div>
        <% if (page.prev || page.next){ %>
         <div class="pager">
           <% if (page.prev){ %>

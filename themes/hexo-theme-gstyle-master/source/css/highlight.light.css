@@ -89,8 +89,7 @@ pre .doctype,
 pre .pi,
 pre .lisp .string,
 pre .javadoc {
-  color: #93a1a1;
-  font-style: italic;
+  color: #cecece;
 }
 pre .keyword,
 pre .winutils,
@@ -149,4 +148,16 @@ pre .clojure .title {
 }
 pre .deletion {
   color: #dc322f;
+}
+.selector-class {
+  color: #f99157;
+}
+.selector-pseudo {
+  color: #ffbb55;
+}
+.attr {
+  color: #00ffff;
+}
+.name, .selector-tag {
+  color: #4184f3;
 }
