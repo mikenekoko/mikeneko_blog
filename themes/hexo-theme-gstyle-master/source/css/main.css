@@ -286,10 +286,11 @@ article img{
 article code,article tt{
     padding: .1em .2em;
     margin: 0 5px;
-    background-color: rgba(0,0,0,.04);
-    font-weight: bold;
-    color: #000080;
+    background-color: rgb(243, 243, 243);
+    color: #ff7300;
     border-radius: 3px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 article blockquote{
     padding: 0 15px;
