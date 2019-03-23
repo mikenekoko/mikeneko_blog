@@ -326,8 +326,9 @@ figure.highlight .gutter{
 .post-header .post-title{
     margin: 0;
     width: 100%;
-    /*padding: 15px;*/
-
+}
+.post-header .post-title:hover span{
+    color: #0063FF;
 }
 .post-header.with-cover{
     background-color: #4184f3;
@@ -431,13 +432,20 @@ article blockquote ol,article blockquote ul{
     justify-content: space-between;
 }
 .pager .pager-item{
-    background: #E6EFFF;
-    border-radius: 30px;
+    border-radius: 20px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     /*flex: 1 1 auto;*/
     max-width: 50%;
+    transition: ease-in-out .2s;
+    background-color:#E6EFFF;
+}
+.pager .pager-item:hover{
+    background-color: #4184f3;
+    color: #fff;
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.15);
+    transition: ease-in-out .2s;
 }
 .pager .post-nav-title{
     white-space: nowrap;
@@ -460,20 +468,22 @@ article blockquote ol,article blockquote ul{
     border-radius: 50px;
 }
 .pagination a {
-    background-color: #4184f3;
-    color: #FFF;
+    background-color: #E6EFFF;
+    color: #0063FF;
     border-radius: 50px;
     margin: 0 10px;
+    transition: ease-in-out .2s;
 }
 .pagination span {
-    background-color: rgb(190, 214, 255);
-    color: #0063FF;
+    background-color: rgb(221, 221, 221);
+    color: #000;
     border-radius: 50px;
 }
 
-.pagination :hover {
-    background-color: rgb(190, 214, 255);
-    color: #0063FF;
+.pagination a:hover {
+    background-color: #4184f3;
+    color: #fff;
+    transition: ease-in-out .2s;
 }
 .pagination .page-number{
     flex: 1 1 auto;
