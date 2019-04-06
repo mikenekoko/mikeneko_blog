@@ -28,6 +28,9 @@ links:
   - title: "Twitter"
     url: https://twitter.com/mikene_koko
     intro: "twitter"
+  - title: "Qiita"
+    url: https://qiita.com/mikene_koko
+    intro: "Qiita"
 
 #site statistic
 google_analytics:  
