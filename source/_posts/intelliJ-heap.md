@@ -1,5 +1,5 @@
 ---
-title: [IntelliJ]sbtプロジェクトのヒープサイズの上げ方
+title: IntelliJでsbtプロジェクトのヒープサイズの上げ方
 date: 2019-04-17 00:52:20
 tags:
 - IntelliJ
