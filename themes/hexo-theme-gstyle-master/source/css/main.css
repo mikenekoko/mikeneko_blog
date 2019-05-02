@@ -673,14 +673,14 @@ em {
 .contact_label {
     display: block;
     float: left;
-    width: 60px;
+    width: 140px;
     padding-right: 10px;
 }
-#email_area {
+#twitter_area {
     margin: 10px 0;
 }
-#name, #email {
-    width: 90%;
+#name, #twitter, #message {
+    width: 70%;
 }
 .btn-square {
     display: inline-block;
