@@ -646,23 +646,20 @@ kbd {
     color: #3B5998;
 }
 
-table {
+section > table {
     display: block;
     overflow: auto;
     margin: 1.5em 0;
     border-left: 1px solid #ddd;
     border-collapse: collapse;
 }
-thead {
+section > thead {
     display: table-header-group;
     vertical-align: middle;
     border-color: inherit;
 }
-tbody tr:nth-child(2n-1) {
-    background-color: #eee;
-}
-table th,
-table td {
+section > table th,
+section > table td {
     padding: 10px;
     border: 1px solid #ccc;
     padding: 8px 10px;
