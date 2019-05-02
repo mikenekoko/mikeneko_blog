@@ -676,11 +676,12 @@ em {
     width: 140px;
     padding-right: 10px;
 }
-#twitter_area {
+#email_area {
     margin: 10px 0;
 }
-#name, #twitter, #message {
+#name, #email, #message {
     width: 70%;
+    font-family: sans-serif;
 }
 .btn-square {
     display: inline-block;
