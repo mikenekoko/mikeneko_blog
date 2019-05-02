@@ -670,3 +670,31 @@ table td {
 em {
     font-weight: bold;
 }
+.contact_label {
+    display: block;
+    float: left;
+    width: 60px;
+    padding-right: 10px;
+}
+#email_area {
+    margin: 10px 0;
+}
+#name, #email {
+    width: 90%;
+}
+.btn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #4184f3;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #2457a8;
+    border-radius: 3px;
+  }
+  .btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
+  
