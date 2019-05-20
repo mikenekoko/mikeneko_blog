@@ -1,5 +1,5 @@
 ---
-title: [Nginx]worker_connectionsとworker_rlimit_nofileの値は何がいいのか？
+title: '[Nginx]worker_connectionsとworker_rlimit_nofileの値は何がいいのか？'
 date: 2019-05-20 10:11:53
 tags:
 - nginx
