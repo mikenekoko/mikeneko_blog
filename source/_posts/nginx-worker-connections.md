@@ -109,7 +109,7 @@ worker_rlimit_nofileは、1workerプロセスにおけるファイルディス�
 
 # worker_connectionsの値は何にすべき？
 ## そもそもworker_connectionsとは？
-Nginxのworker_connectionsの1workerプロセスにおける、 `ファイルディスクリプタ` の上限値
+Nginxのworker_connectionsの1workerプロセスにおける、 `接続数` の上限値
 
 引用） [Nginx - worker_connecions](http://nginx.org/en/docs/ngx_core_module.html#worker_connections)
 > Sets the maximum number of simultaneous connections that can be opened by a worker process.

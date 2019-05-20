@@ -12,7 +12,7 @@ favicon: https://pbs.twimg.com/media/DtWc0NgVAAMP3Cf.jpg
 show_post_category: true
 show_post_tags: true
 
-active_nav: false # show active status on nav menu
+active_nav: true # show active status on nav menu
 
 sidebar: true # whether to show the sidebar
 widgets:
