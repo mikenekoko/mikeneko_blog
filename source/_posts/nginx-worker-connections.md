@@ -1,5 +1,5 @@
 ---
-title: nginx_worker_connections
+title: [Nginx]worker_connectionsとworker_rlimit_nofileの値は何がいいのか？
 date: 2019-05-20 10:11:53
 tags:
 - nginx
@@ -65,7 +65,7 @@ OSで扱えるファイル数以上のファイルディスクリプタをNginx�
 ### 確認
 nginx.conf に設定できる箇所があるので、ここに設定していればその数がworkerプロセス数です。
 
-```conf
+```perl
 # これだとworkerプロセスは6個
 worker_processes 6;
 
@@ -145,7 +145,7 @@ Nginxのworker_connectionsの1workerプロセスにおける、 `ファイルデ
 
 最終的に、僕の nginx.conf は以下の通りになりました。
 
-```conf
+```perl
 worker_rlimit_nofile 83000; # worker_connections の2~4倍以上の値を設定。OS全体で扱うことができるファイル数を超えないように注意
  
 events {
