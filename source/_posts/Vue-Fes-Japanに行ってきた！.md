@@ -3,6 +3,7 @@ title: Vue Fes Japanに行ってきた！(前編)
 date: 2018-11-04 20:44:37
 tags:
 - vue.js
+- vue-fes-japan
 ---
 <img src="https://www.yumemi.co.jp/application/files/1815/3803/8559/vuefesjapan2015.png">
 お疲れ様です、みけです。

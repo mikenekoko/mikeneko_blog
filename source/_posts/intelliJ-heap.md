@@ -4,6 +4,7 @@ date: 2019-04-17 00:52:20
 tags:
 - IntelliJ
 - sbt
+- ヒープサイズ
 ---
 
 ターミナルから普通に動かせば動くのにIntelliJでBuildさせると動かない！

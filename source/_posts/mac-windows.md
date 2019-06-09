@@ -4,6 +4,8 @@ date: 2019-04-30 12:07:57
 tags:
 - Mac
 - Windows
+- キーボード
+- 配置変更
 ---
 
 会社のPCがMACになりました。家ではLenovoのWindowsPCを使っています。

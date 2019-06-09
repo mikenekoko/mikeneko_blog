@@ -3,6 +3,7 @@ title: GitLabRunnerからDockerの操作がアクセス拒否される
 date: 2019-04-07 02:42:34
 tags:
 - gitlab-ci
+- gitlab-runner
 - Docker
 ---
 

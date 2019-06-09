@@ -1,7 +1,9 @@
 ---
 title: Vue Fes Japanに行ってきた！(中編)
 date: 2018-11-05 16:12:39
-tags: vue.js
+tags: 
+- vue.js
+- vue-fes-japan
 ---
 
 # Vue Designer: デザインと実装の統合

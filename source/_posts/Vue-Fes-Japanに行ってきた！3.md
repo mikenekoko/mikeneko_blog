@@ -1,7 +1,9 @@
 ---
 title: Vue Fes Japanに行ってきた！(後編)
 date: 2018-11-05 16:32:37
-tags: vue.js
+tags: 
+- vue.js
+- vue-fes-japan
 ---
 
 # note のフロントエンドを Nuxt.js で再構築した話
