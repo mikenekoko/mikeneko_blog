@@ -2,7 +2,7 @@
 title: みけのブログへようこそ！
 ---
 * GitHub : https://github.com/mikenekoko
-* Twitter : https://twitter.com/
+* Twitter : https://twitter.com/mikene_koko
 * Qiita : https://qiita.com/mikene_koko 
 
 ## ブログの構造
