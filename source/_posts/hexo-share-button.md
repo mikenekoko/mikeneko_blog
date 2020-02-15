@@ -31,7 +31,7 @@ https://twitter.com/intent/tweet?text=記事タイトル%20-%20ブログタイ�
 
 この記事だとしたら、URLは以下のようになります。
 
-https://twitter.com/intent/tweet?text=hexoのシェアボタンを作ろう！%20-%20みけのエンジニアブログ%0Ahttps://mikeneko.tk/2019/03/23/hexo-share-button/
+https://twitter.com/intent/tweet?text=hexoのシェアボタンを作ろう！%20-%20みけのエンジニアブログ%https://mikeneko-blog.netlify.com/2019/03/23/hexo-share-button/
 
 叩いてみると、よく見るこんな感じの画面になります！
 
@@ -73,9 +73,9 @@ http://www.facebook.com/sharer.php?u=<%= page.permalink %>&t=<%= page.title%>
 こんな感じになります！WordPressのCSSを一部参考にしています。
 
 <div class="share_link">
-<a class="twitter_share_link" href="https://twitter.com/intent/tweet?text=hexoブログのシェアボタンを作ろう！%20-%20みけのエンジニアブログ%0Ahttp://mikeneko.tk/2019/03/23/hexo-share-button/" target="_blank">
+<a class="twitter_share_link" href="https://twitter.com/intent/tweet?text=hexoブログのシェアボタンを作ろう！%20-%20みけのエンジニアブログ%0Ahttps://mikeneko-blog.netlify.com/2019/03/23/hexo-share-button/" target="_blank">
   <i class="fab fa-twitter fa-3x"></i></a>
-<a class="facebook_share_link" href="http://www.facebook.com/sharer.php?u=http://mikeneko.tk/2019/03/23/hexo-share-button/&t=hexoブログのシェアボタンを作ろう！" target="_blank">
+<a class="facebook_share_link" href="http://www.facebook.com/sharer.php?u=https://mikeneko-blog.netlify.com/2019/03/23/hexo-share-button/&t=hexoブログのシェアボタンを作ろう！" target="_blank">
   <i class="fab fa-facebook-f fa-3x"></i></a>
 </div>
 

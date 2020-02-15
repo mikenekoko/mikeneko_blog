@@ -1,4 +1,4 @@
 # mikeneko_blog
 
 みけのエンジニアブログの本体
-https://mikeneko.tk
+https://mikeneko-blog.netlify.com
